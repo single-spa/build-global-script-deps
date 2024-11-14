@@ -1,6 +1,6 @@
 {
   "name": "@single-spa/build-global-script-deps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Build global script dependencies to be hosted on CDN",
   "type": "module",
   "exports": {
