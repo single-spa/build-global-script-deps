@@ -26,8 +26,11 @@ describe(`build-global-script-deps`, () => {
 });
 
 function readDirRelative(dir: string) {
-  return fs
-    .readdirSync(dir, { recursive: true })
-    .map((file) => path.relative(process.cwd(), file))
-    .sort();
+  console.log("cwd", process.cwd());
+  return (
+    fs
+      .readdirSync(dir, { recursive: true })
+      // .map((file) => path.relative(process.cwd(), file))
+      .sort()
+  );
 }
