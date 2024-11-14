@@ -17,6 +17,8 @@
   ],
   "scripts": {
     "test": "jest --config jest.config.js",
+    "check-format": "prettier --check .",
+    "build": "tsc",
     "prepare": "husky"
   },
   "keywords": [],
