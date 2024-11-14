@@ -19,6 +19,7 @@
     "test": "jest --config jest.config.js",
     "check-format": "prettier --check .",
     "build": "tsc",
+    "prepublishOnly": "pnpm run build",
     "prepare": "husky"
   },
   "keywords": [],
