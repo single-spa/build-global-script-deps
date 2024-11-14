@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`build-global-script-deps writes folders to the file system 1`] = `
+[
+  "npm:@single-spa",
+  "npm:@single-spa/import-map-injector@2.0.0",
+  "npm:@single-spa/import-map-injector@2.0.0/LICENSE",
+  "npm:@single-spa/import-map-injector@2.0.0/README.md",
+  "npm:@single-spa/import-map-injector@2.0.0/lib",
+  "npm:@single-spa/import-map-injector@2.0.0/lib/import-map-injector.js",
+  "npm:@single-spa/import-map-injector@2.0.0/lib/import-map-injector.js.map",
+  "npm:@single-spa/import-map-injector@2.0.0/package.json",
+  "npm:@single-spa/import-map-injector@2.0.0/types",
+  "npm:@single-spa/import-map-injector@2.0.0/types/import-map-injector.d.ts",
+  "npm:import-map-overrides@4.2.0",
+  "npm:import-map-overrides@4.2.0/LICENSE",
+  "npm:import-map-overrides@4.2.0/README.md",
+  "npm:import-map-overrides@4.2.0/dist",
+  "npm:import-map-overrides@4.2.0/dist/import-map-overrides-api.js",
+  "npm:import-map-overrides@4.2.0/dist/import-map-overrides-api.js.map",
+  "npm:import-map-overrides@4.2.0/dist/import-map-overrides-server.js",
+  "npm:import-map-overrides@4.2.0/dist/import-map-overrides-server.js.map",
+  "npm:import-map-overrides@4.2.0/dist/import-map-overrides.js",
+  "npm:import-map-overrides@4.2.0/dist/import-map-overrides.js.map",
+  "npm:import-map-overrides@4.2.0/package.json",
+]
+`;

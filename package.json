@@ -1,0 +1,45 @@
+{
+  "name": "@single-spa/build-global-script-deps",
+  "version": "1.0.0",
+  "description": "Build global script dependencies to be hosted on CDN",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./lib/build-global-script-deps.js",
+      "types": "./lib/build-global-script-deps.d.ts"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "Joel Denning",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "@jest/globals": "^29.7.0",
+    "@jest/types": "^29.6.3",
+    "babel-jest": "^29.7.0",
+    "husky": "^9.1.6",
+    "jest": "^29.7.0",
+    "jest-cli": "^29.7.0",
+    "memfs": "^4.14.0",
+    "prettier": "^3.3.3",
+    "pretty-quick": "^4.0.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@types/node": "^22.9.0",
+    "tar": "^7.4.3"
+  },
+  "packageManager": "pnpm@9.13.0"
+}

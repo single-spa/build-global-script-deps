@@ -1,0 +1,9 @@
+{
+  "files": ["src/build-global-script-deps.ts"],
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "lib",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
+  }
+}
